@@ -1,0 +1,4 @@
+/* v9: 六曜表示をUIから削除 */
+.rokuyo{display:none!important}
+/* カレンダー下の六曜説明文も非表示にする */
+.calendar + .muted{display:none!important}

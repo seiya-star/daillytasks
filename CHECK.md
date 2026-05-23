@@ -1,10 +1,6 @@
 # CHECK
-- formBox for task form
-- holidays 2026/2027 included
-- sunday red style
-- rokuyo display added
-- month start/end highlight removed
-- no showModal
-- no innerHTML
-- no inline event attributes
-- Service Worker cache v7
+- rokuyo UI hidden
+- calendar rokuyo note hidden
+- index includes hide_rokuyo.css
+- Service Worker cache v9
+- app.js unchanged
