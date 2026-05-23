@@ -1,8 +1,7 @@
 {
-  "id": "/dark-timeline-planner-v7/",
+  "id": "/dark-timeline-clean-v14/",
   "name": "Dark Timeline Planner",
   "short_name": "Timeline",
-  "description": "祝日・日曜色分け・六曜表示・フォーム整形対応版",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",

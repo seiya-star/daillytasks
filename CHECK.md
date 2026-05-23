@@ -1,8 +1,9 @@
 # CHECK
-- title Dark Timeline hidden
-- focus title forced to 集中
-- focus buttons implemented
-- memo width aligned
-- duplicate char/text project tools removed
-- char split can add tasks to calendar
-- Service Worker cache v13
+- clean full rebuild
+- no patch chain
+- no Dark Timeline eyebrow title
+- focus title/buttons integrated
+- memo width integrated
+- character-count split integrated with calendar task add
+- no showModal
+- no innerHTML in app.js? uses no innerHTML
