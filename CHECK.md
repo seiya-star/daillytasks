@@ -1,7 +1,8 @@
 # CHECK
+- focus tab standalone buttons added
+- 52/17 rule button added
+- white noise button added
 - memo placeholders removed
-- memo button aligned
-- 52/17 timer added
-- character-count project split added
-- old text-based tool hidden
-- Service Worker cache v11
+- memo layout forced full width
+- character-count daily split added
+- Service Worker cache v12
