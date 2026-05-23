@@ -1,8 +1,8 @@
 {
-  "id": "/dark-timeline-project-planner-v3/",
+  "id": "/dark-timeline-project-planner-v4/",
   "name": "Dark Timeline Project Planner",
   "short_name": "Timeline",
-  "description": "曜日タスク・メモスタック・スマホ最適カレンダー対応の黒背景プランナー",
+  "description": "曜日ズレ修正・横スクロール修正・曜日タスク終了時刻対応版",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",

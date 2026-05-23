@@ -1,9 +1,8 @@
 # CHECK
-- routines by weekday added
-- compact calendar added
-- memo stack added
-- mobile max-width 430px
-- dialog/showModalなし
-- innerHTMLなし
-- inline event属性なし
-- Service Worker cache v3
+- localDate/localISO added for weekday fix
+- routine end time added
+- horizontal overflow fixes added
+- no dialog/showModal
+- no innerHTML
+- no inline event attributes
+- Service Worker cache v4

@@ -1,12 +1,12 @@
-# Dark Timeline Project Planner v3 Mobile
+# Dark Timeline Project Planner v4 Fixes
 
-## 改善内容
-- 曜日ごとに決まっているタスクラインを追加
-- カレンダーをスマホ画面内に収まりやすいコンパクト表示へ変更
-- 今日のメモを「メモスタック」として直近7件確認可能に変更
-- プロジェクト日割り作成フォームの説明・プレースホルダーを維持
-- 最大幅430px、safe-area対応
+## 修正内容
+- 曜日ズレ修正: `new Date('YYYY-MM-DD')` を使わず、ローカル日付として解析するよう変更
+- 追加画面の横スクロール修正: panel/form/field/checks/input に overflow-x hidden と min-width対策
+- 曜日追加に終了時刻を追加
+- 曜日タスク表示を `開始-終了 タスク名` に変更
+- Service Worker cache v4
 
 ## GitHub Pages
-ZIPを解凍し、中身をリポジトリ直下に上書きアップロードしてください。
-公開後は `?v=v3` を付けて確認してください。
+ZIPを解凍し、中身をリポジトリ直下へ上書きアップロードしてください。
+確認URL例: `https://seiya-star.github.io/-/?v=v4`
