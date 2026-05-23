@@ -1,15 +1,19 @@
-# Dark Timeline Planner v9 no rokuyo patch
+# Dark Timeline Planner v10 Patch
 
 ## 変更内容
-- カレンダー上の六曜表示を非表示化
-- カレンダー下の「六曜は参考表示です」という説明文も非表示化
-- Service Worker cache v9 に更新
+- iCalendar出力を見直し
+  - 予定はVEVENT
+  - ToDoはVTODO
+  - メモはVEVENT
+  - 曜日タスクはRRULE付きVEVENTとして出力
+- ホーム画面に追加ボタンを非表示化
+- 集中タブにホワイトノイズボタンを追加
+- 今日のタイムライン欄の空欄説明を非表示化
+- 今日のメモ欄の保存/追加ボタンを入力欄幅に合わせる
+- カレンダー説明を非表示化
+- 六曜表示も引き続き非表示化
+- プロジェクト画面に「文字ベースの日割り」作成欄を追加
 
 ## 使い方
-これは v8 用の差分パッチです。既存の v8 ファイル群に対して、以下をアップロード/上書きしてください。
-
-- index.html
-- hide_rokuyo.css
-- sw.js
-
-app.js / style.css / アイコン類は既存のものをそのまま使います。
+v8/v9の既存ファイルに、このZIP内のファイルを上書きアップロードしてください。
+既存の app.js / style.css / アイコン / manifest はそのまま必要です。

@@ -1,6 +1,9 @@
 # CHECK
-- rokuyo UI hidden
-- calendar rokuyo note hidden
-- index includes hide_rokuyo.css
-- Service Worker cache v9
-- app.js unchanged
+- iCalendar export intercepted and enhanced
+- home add buttons hidden
+- white noise added to focus tab
+- today empty description hidden
+- memo button width aligned
+- calendar description hidden
+- text-based project daily split added
+- v10 Service Worker cache
