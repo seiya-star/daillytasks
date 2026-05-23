@@ -1,8 +1,0 @@
-/* v10 patch */
-#installBtn{display:none!important}
-.rokuyo{display:none!important}
-.calendar + .muted{display:none!important}
-.v10-hidden{display:none!important}
-.v10-text-plan{white-space:pre-wrap;background:#070a12;border:1px solid var(--line,#263247);border-radius:14px;padding:12px;color:var(--ink,#eef6ff);font-size:13px;line-height:1.55;max-height:260px;overflow:auto}
-.v10-small-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:8px}
-.v10-project-tool input,.v10-project-tool textarea,.v10-project-tool select{width:100%;background:#070a12;border:1px solid var(--line,#263247);border-radius:14px;color:var(--ink,#eef6ff);padding:12px;font-size:16px}.v10-project-tool label{font-size:12px;color:var(--muted,#98a6ba);font-weight:900}.v10-project-tool{display:grid;gap:10px}.v10-note-button-fix{width:100%;margin-top:8px}.v10-noise-on{border-color:#a7f3d0!important;color:#a7f3d0!important;background:#0b2a2b!important}
