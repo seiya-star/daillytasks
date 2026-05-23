@@ -1,8 +1,8 @@
 # CHECK
-- 黒背景タイムラインUI
-- プロジェクト日割り計算
-- バッファー日生成
+- project form labels/hints/placeholders added
+- mobile-first max-width 430px
+- safe-area support
 - dialog/showModalなし
 - innerHTMLなし
 - inline event属性なし
-- Service Workerあり
+- Service Worker cache v2

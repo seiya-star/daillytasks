@@ -1,13 +1,13 @@
 {
-  "id": "/dark-timeline-project-planner/",
+  "id": "/dark-timeline-project-planner-v2/",
   "name": "Dark Timeline Project Planner",
   "short_name": "Timeline",
-  "description": "黒背景タイムラインとプロジェクト日割り自動生成を備えたPWA",
+  "description": "スマホ専用に最適化した黒背景タイムライン型プランナー",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#080d16",
-  "theme_color": "#080d16",
+  "background_color": "#070a12",
+  "theme_color": "#070a12",
   "orientation": "portrait-primary",
   "icons": [
     {
