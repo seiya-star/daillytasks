@@ -1,8 +1,8 @@
 {
-  "id": "/dark-timeline-project-planner-v6/",
-  "name": "Dark Timeline Project Planner",
+  "id": "/dark-timeline-planner-v7/",
+  "name": "Dark Timeline Planner",
   "short_name": "Timeline",
-  "description": "JST固定カレンダー・月境界色分け・時刻入力コンパクト版",
+  "description": "祝日・日曜色分け・六曜表示・フォーム整形対応版",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
