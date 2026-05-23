@@ -1,0 +1,17 @@
+/* v15 layout patch: 箱・空欄・余白の統一 */
+:root{--gap:10px;--radius:18px;--field-h:48px;--card-pad:14px}
+*,*:before,*:after{box-sizing:border-box!important;min-width:0!important}
+html,body,#app,main,.card,#panel,.box,.memoBox,.field,.grid2,.row,.timeline,.calendar{max-width:100%!important;overflow-x:hidden!important}
+.card{padding:var(--card-pad)!important;margin:10px 0!important;border-radius:22px!important}
+.card h2{line-height:1.25!important;margin-bottom:12px!important}
+.row{gap:var(--gap)!important}.quick{gap:8px!important;padding-left:10px!important;padding-right:10px!important}.quick button{min-height:46px!important;padding:10px 4px!important}
+.box,.memoBox{width:100%!important;max-width:100%!important;display:grid!important;grid-template-columns:1fr!important;gap:var(--gap)!important;border:1px solid var(--line,#263247)!important;border-radius:var(--radius)!important;padding:12px!important;background:#09111f!important;overflow:hidden!important}
+.field{width:100%!important;max-width:100%!important;display:block!important;overflow:hidden!important}.field label{line-height:1.25!important;margin-bottom:6px!important}
+.field input,.field select{width:100%!important;max-width:100%!important;min-height:var(--field-h)!important;height:var(--field-h)!important;padding:11px 12px!important;border-radius:14px!important;display:block!important}
+.field textarea{width:100%!important;max-width:100%!important;min-height:96px!important;padding:12px!important;border-radius:14px!important;display:block!important;line-height:1.45!important}
+.grid2{width:100%!important;display:grid!important;grid-template-columns:minmax(0,1fr) minmax(0,1fr)!important;gap:var(--gap)!important;align-items:start!important}
+.memoBox + button,.box + button,.form > button,.card > button.primary{width:100%!important;max-width:100%!important;display:block!important;margin-top:10px!important;min-height:50px!important;border-radius:16px!important}
+.item{max-width:calc(100% - 38px)!important;margin-top:10px!important;margin-bottom:10px!important;padding:11px!important;border-radius:17px!important}.actions{gap:7px!important}.actions button{min-height:36px!important}
+.day,.dow{min-width:0!important}.day{min-height:54px!important}.progress,.bigProgress,.output{width:100%!important;max-width:100%!important}.timer{line-height:1.05!important}
+#panel{padding-left:14px!important;padding-right:14px!important}.panelHead{gap:8px!important;overflow:hidden!important}.panelHead h2{overflow-wrap:anywhere!important}
+@media (max-width:360px){:root{--gap:8px;--card-pad:12px;--field-h:46px}.top h1{font-size:30px!important}.quick button,nav button{font-size:12px!important}.grid2{grid-template-columns:1fr!important}.day{min-height:50px!important;font-size:10px!important}.timer{font-size:48px!important}}
