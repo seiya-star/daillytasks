@@ -1,15 +1,20 @@
-# Dark Timeline Project Planner v5 JST + Scroll Fix
+# Dark Timeline Project Planner v6
 
 ## 修正内容
-- カレンダー曜日ズレをさらに修正
-  - `toISOString()` を使わず、ローカル日付 `YYYY-MM-DD` を手動生成
-  - `YYYY-MM-DD` を `new Date()` に直接渡さず、年月日を分解してローカル時刻で生成
-- 横スクロール対策を強化
-  - html/body/#app/main/panel/form/card/item/nav に overflow-x 対策
-  - `min-width:0`、`max-width:100%`、`overflow-wrap:anywhere` を追加
-  - ボタン・入力欄・フォーム・チェックボックス列のはみ出しを抑制
-- 曜日タスクの終了時刻対応を維持
+- 曜日タスクがカレンダー上でズレる問題を修正
+  - 今日の日付は Asia/Tokyo 固定で取得
+  - 曜日判定は `jstWeekday(YYYY-MM-DD)` で固定
+  - カレンダーの42マス生成は `toISOString()` を使わず、UTC日付演算 + 手動ISO生成
+- カレンダー上で月の始まりと終わりを色分け
+  - 前後月の日付は薄く表示
+  - 月初は緑枠
+  - 月末は黄色枠
+  - 今日の日付は水色アウトライン
+- タスク追加時の表示時刻をコンパクト化
+  - 「表示時刻」と「分」を横並びの小型欄に変更
+  - 予定・曜日タスク・プロジェクト作成画面も一部コンパクト化
+- 横スクロール対策を維持・強化
 
 ## GitHub Pages
-ZIPを解凍し、中身をリポジトリ直下に上書きアップロードしてください。
-確認URL例: `https://seiya-star.github.io/-/?v=v5`
+ZIPを解凍し、中身をリポジトリ直下に上書きしてください。
+確認URL例: `https://seiya-star.github.io/-/?v=v6`
