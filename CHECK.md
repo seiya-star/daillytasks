@@ -1,8 +1,9 @@
 # CHECK
-- localDate/localISO added for weekday fix
-- routine end time added
-- horizontal overflow fixes added
-- no dialog/showModal
+- localISO no toISOString for calendar days
+- localDate parser for YYYY-MM-DD
+- stronger horizontal scroll fixes
+- routine end time retained
+- no showModal
 - no innerHTML
 - no inline event attributes
-- Service Worker cache v4
+- Service Worker cache v5

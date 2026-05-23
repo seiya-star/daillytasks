@@ -1,8 +1,8 @@
 {
-  "id": "/dark-timeline-project-planner-v4/",
+  "id": "/dark-timeline-project-planner-v5/",
   "name": "Dark Timeline Project Planner",
   "short_name": "Timeline",
-  "description": "曜日ズレ修正・横スクロール修正・曜日タスク終了時刻対応版",
+  "description": "JST固定カレンダー・横スクロール強化対策版",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
